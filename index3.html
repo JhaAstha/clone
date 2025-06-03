@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title><search></search> - LinkedIn Profile Mockup</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f3f2ef;
+  }
+
+  /* Top bar with icons */
+  .top-bar {
+    background-color: #001462;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+  }
+
+  .top-bar-left,
+  .top-bar-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .top-bar button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  header {
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .search-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: #eef3f8;
+    border-radius: 5px;
+  }
+
+  .search-bar input {
+    border: none;
+    background: none;
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+  }
+
+  main {
+    padding: 15px;
+  }
+
+  .profile-info,
+  .recruiter-section,
+  .suggested,
+  .analytics {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+
+  .profile-info img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 10px auto;
+  }
+
+  .profile-info h1 {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .profile-info p {
+    margin: 5px 0;
+  }
+
+  .connections {
+    color: #570141;
+    margin: 10px 0;
+  }
+
+  .profile-info .buttons {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+  }
+
+  .profile-info button {
+    border: none;
+    background-color: #670060;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .enhance-btn {
+    background-color: #eef3f8;
+    color: #6f0262;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .recruiter-section p,
+  .suggested p,
+  .analytics div p {
+    font-size: 14px;
+  }
+
+  .recruiter-section button,
+  .suggested button {
+    background-color: #5a014b;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .suggested h2,
+  .analytics h2 {
+    margin: 0 0 10px;
+    font-size: 16px;
+  }
+
+  strong {
+    display: block;
+    margin-bottom: 3px;
+  }
+</style>
+</head>
+<body>
+
+  <!-- Top blue bar with icons -->
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <button>🔗 LinkedIn</button>
+      <button>🏠 Home</button>
+      <button>👥 My Network</button>
+      <button>💼 Jobs</button>
+    </div>
+    <div class="top-bar-right">
+      <button>💬 Messaging</button>
+      <button>🔔 Notifications</button>
+      <button>🙋‍♂ Me</button>
+      <button>💼 For Business</button>
+      <button>⭐ Try Premium for 0</button>
+    </div>
+  </div>
+
+  <header>
+    <div class="search-bar">
+      <input type="text" placeholder="Search" value="Astha Jha" />
+      <span>⚙</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="profile-info">
+      
+      <h1>Astha Jha ✔</h1>
+      <p>Student at Amity University Jharkhand</p>
+      <p>Ranchi, Jharkhand, India</p>
+      <p class="connections">98 connections</p>
+      <div class="buttons">
+        <button>Open to</button>
+        <button>Add section</button>
+      </div>
+      <button class="enhance-btn">Enhance profile</button>
+    </section>
+
+    <section class="recruiter-section">
+      <p>Show recruiters you’re open to work — you control who sees this.</p>
+      <button>Get started</button>
+    </section>
+
+    <section class="suggested">
+      <h2>Suggested for you</h2>
+      <p>Write a summary to highlight your personality or work experience</p>
+      <button>Add a summary</button>
+    </section>
+
+    <section class="analytics">
+      <h2>Analytics</h2>
+      <div>
+        <p><strong>65 profile views</strong>Discover who's viewed your profile.</p>
+        <p><strong>0 post impressions</strong>Start a post to increase engagement. Past 7 days</p>
+        <p><strong>2 search appearances</strong>See how often you appear in search results.</p>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
